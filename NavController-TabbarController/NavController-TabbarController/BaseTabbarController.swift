@@ -35,6 +35,7 @@ class BaseTabbarController: UITabBarController, UITabBarControllerDelegate {
         settingNavForEachController(profileVC, traspanrent: true, navTitle: "PROFILE NAV",tabbarTitle: "Profile", image: "Profile", selectedImage: "Selected-Profile")
         // biến viewControllers dùng để lưu các view của tabBar
         viewControllers = [bookNav,homeNav,profileNav]
+        
 //        bookVC.title = "Book"
 //        homeVC.title = "Home"
 //        profileVC.title = "Profile"

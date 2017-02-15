@@ -17,7 +17,7 @@ class BaseNavigationController: UINavigationController {
         navigationBar.titleTextAttributes =
             [NSForegroundColorAttributeName: UIColor(red: 0.149, green: 0.2, blue: 0.255, alpha: 1.0),
              NSFontAttributeName: UIFont(name: "SFUIText-Regular", size: 12)!]
-        na
+        
     
 
     
